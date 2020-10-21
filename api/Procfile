@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar target/*.jar
+web:  ./mvnw clean package; java -jar target/*.jar
